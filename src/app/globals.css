@@ -152,3 +152,69 @@ a {
   color: #ffffff;
   transform: scale(1.02);
 }
+
+/* ─── Legal / Prose (Política e Termos) ───────────── */
+.legal-prose {
+  color: #999;
+  font-size: 0.95rem;
+  line-height: 1.75;
+}
+
+.legal-prose h2 {
+  color: #ffffff;
+  font-size: clamp(20px, 2.4vw, 26px);
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  margin-top: 2.75rem;
+  margin-bottom: 0.9rem;
+}
+
+.legal-prose h2:first-child {
+  margin-top: 0;
+}
+
+.legal-prose h3 {
+  color: #e5e5e5;
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin-top: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.legal-prose p {
+  margin-bottom: 1rem;
+}
+
+.legal-prose ul {
+  list-style: none;
+  margin: 0 0 1.25rem;
+  padding: 0;
+}
+
+.legal-prose li {
+  position: relative;
+  padding-left: 1.4rem;
+  margin-bottom: 0.6rem;
+}
+
+.legal-prose li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.65em;
+  width: 6px;
+  height: 6px;
+  border-radius: 9999px;
+  background: linear-gradient(135deg, #FF4B00, #FF8C00);
+}
+
+.legal-prose a {
+  color: #FF8C00;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.legal-prose strong {
+  color: #ffffff;
+  font-weight: 600;
+}

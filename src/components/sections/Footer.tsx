@@ -1,5 +1,7 @@
 "use client";
 
+import Link from "next/link";
+
 export default function Footer() {
   return (
     <footer
@@ -27,18 +29,24 @@ export default function Footer() {
 
         {/* Policy links */}
         <div className="flex items-center gap-6 text-[#444] text-xs">
-          <a href="#" className="hover:text-[#666] transition-colors">
+          <Link
+            href="/politica-de-privacidade"
+            className="hover:text-[#666] transition-colors"
+          >
             Política de Privacidade
-          </a>
+          </Link>
           <span style={{ color: "#222" }}>·</span>
-          <a href="#" className="hover:text-[#666] transition-colors">
+          <Link
+            href="/termos-de-uso"
+            className="hover:text-[#666] transition-colors"
+          >
             Termos de Uso
-          </a>
+          </Link>
         </div>
 
         {/* Copyright */}
         <p className="text-[#333] text-xs">
-          © 2025 Forge Digital. Todos os direitos reservados.
+          © 2026 Forge Digital. Todos os direitos reservados.
         </p>
       </div>
     </footer>

@@ -11,6 +11,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://forgedigitalmkt.com.br"),
   title: "Método C.R.I.A — Forge Digital",
   description:
     "Pare de travar na frente da tela. O Método C.R.I.A transforma qualquer ideia em um criativo profissional em minutos, com ferramentas gratuitas, sem precisar saber design.",
